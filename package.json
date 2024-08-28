@@ -21,9 +21,9 @@
   },
   "devDependencies": {
     "@biomejs/biome": "1.6.3",
-    "npm-run-all2": "6.1.2",
-    "sort-package-json": "2.10.0",
-    "tsx": "4.15.6"
+    "npm-run-all2": "6.2.2",
+    "sort-package-json": "2.10.1",
+    "tsx": "4.19.0"
   },
   "engines": {
     "node": ">=20.0.0"

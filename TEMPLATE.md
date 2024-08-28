@@ -5,6 +5,10 @@
   - https://github.com/privatenumber/tsx/releases
   - https://www.npmjs.com/package/tsx
 - https://github.com/joaopalmeiro/template-ts-jiti-script
+- https://github.com/keithamus/sort-package-json/releases
+- https://github.com/bcomnes/npm-run-all2/releases
+- https://github.com/npm/read-package-json-fast
+- https://github.com/privatenumber/tsx/releases
 
 ## Snippets
 
