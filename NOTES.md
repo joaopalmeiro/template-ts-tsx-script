@@ -1,7 +1,6 @@
 # Notes
 
 - https://github.com/joaopalmeiro/template-ts-tsx-script
-- https://github.com/joaopalmeiro/template-ts-jiti-script
 
 ## Commands
 
