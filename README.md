@@ -8,13 +8,7 @@ Opinionated [TypeScript](https://www.typescriptlang.org/) + [tsx](https://tsx.is
 2. Get the template files:
 
 ```bash
-npx degit github:joaopalmeiro/template-ts-tsx-script
-```
-
-or
-
-```bash
-npx degit github:joaopalmeiro/template-ts-tsx-script --force
+npx giget github:joaopalmeiro/template-ts-tsx-script . --force
 ```
 
 3. Search for `template-ts-tsx-script` and replace it with the project name. Ignore the template repository URL in the [NOTES.md](NOTES.md) file.

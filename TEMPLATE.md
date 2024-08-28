@@ -28,3 +28,17 @@ progress=true
 save-exact=true
 update-notifier=false
 ```
+
+### `README.md` file
+
+````markdown
+```bash
+npx degit github:joaopalmeiro/template-ts-tsx-script
+```
+
+or
+
+```bash
+npx degit github:joaopalmeiro/template-ts-tsx-script --force
+```
+````
