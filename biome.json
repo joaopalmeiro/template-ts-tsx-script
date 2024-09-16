@@ -22,6 +22,7 @@
       "all": true,
       "nursery": {
         "all": true,
+        "noConsole": "off",
         "noNodejsModules": "off"
       },
       "style": {
