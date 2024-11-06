@@ -1,5 +1,5 @@
 {
-  "$schema": "https://biomejs.dev/schemas/1.6.3/schema.json",
+  "$schema": "https://biomejs.dev/schemas/1.9.0/schema.json",
   "files": {
     "ignoreUnknown": true
   },
@@ -11,6 +11,9 @@
   "json": {
     "formatter": {
       "enabled": true
+    },
+    "linter": {
+      "enabled": true
     }
   },
   "organizeImports": {
@@ -20,10 +23,13 @@
     "enabled": true,
     "rules": {
       "all": true,
-      "nursery": {
+      "correctness": {
         "all": true,
-        "noConsole": "off",
         "noNodejsModules": "off"
+      },
+      "suspicious": {
+        "all": true,
+        "noConsole": "off"
       },
       "style": {
         "all": true,
@@ -44,6 +50,7 @@
     "indentStyle": "space",
     "indentWidth": 2,
     "lineWidth": 100,
-    "attributePosition": "auto"
+    "attributePosition": "auto",
+    "useEditorconfig": true
   }
 }

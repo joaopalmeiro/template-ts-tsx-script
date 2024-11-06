@@ -13,14 +13,14 @@
   "scripts": {
     "dev": "tsx src/index.ts",
     "format": "run-s format:pkgJson format:code",
-    "format:code": "biome check --apply .",
+    "format:code": "biome check --write",
     "format:pkgJson": "sort-package-json",
     "lint": "run-s lint:pkgJson lint:code",
-    "lint:code": "biome lint .",
+    "lint:code": "biome lint",
     "lint:pkgJson": "sort-package-json --check"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.6.3",
+    "@biomejs/biome": "1.9.0",
     "npm-run-all2": "6.2.2",
     "sort-package-json": "2.10.1",
     "tsx": "4.19.0"
