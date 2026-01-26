@@ -42,3 +42,13 @@ or
 npx degit github:joaopalmeiro/template-ts-tsx-script --force
 ```
 ````
+
+### `package.json` file
+
+```json
+{
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
+```
